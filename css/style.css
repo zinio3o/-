@@ -1,0 +1,322 @@
+/* style.css */
+:root {
+  --main-color: #7602b9;
+  --text-color: #5c5b5b;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+ul {
+  list-style-type: none;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+
+}
+#main-header{
+    height: 80px;
+}
+.header-box{
+    display: flex;
+}
+#main-header img{
+  width: 90px;
+  height: 70px;
+  margin-top: 5px;
+}
+.nav{
+    display: flex;
+    margin-left: auto;
+    margin-right: 35px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+.nav li{
+  margin-right: 45px;
+  font-family: "S-Core Dream 4";
+}
+#main-header input{
+    margin-top: 24px;
+    width: 178px;
+    height: 32px;
+}
+#main-header button{
+  font-family: "S-Core Dream 4";
+  margin-top: 24px;
+  width: 45px;
+  font-size: 14px;
+  height: 32px;
+  background: #dfc6ff;
+  border: 1px solid #707070;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#main-visual{
+  position: relative;
+}
+.slider{
+  position: absolute;
+  width: 1200px;
+  height: 720px;
+  left: 50%;
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+.slider-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+    text-align: center;
+}
+.slider-text h2{
+  font-family: "KCC-은영체";
+  font-size: 72px;
+  color: #e9e7e7;
+  margin-bottom: 31px;
+}
+.slider-text button{
+  font-family: "S-Core Dream 4";
+  width: 292px;
+  height: 52px;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 10px;
+  background: #ececec;
+  color: rgb(61, 61, 61);
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 1px 4px 0 rgb(0,0,0,0.2);
+}
+.slider-text button:active { 
+  box-shadow: 1px 1px 0 rgb(0,0,0,0.5); 
+  position: relative; 
+  top:2px; 
+}
+
+.slider img{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.pager{
+  position: relative;
+  width: 1200px;
+  height: 720px;
+  margin: 0 auto;
+}
+.leftBtn img, .rightBtn img{
+  position: absolute;
+  width: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.leftBtn img{
+  left: 100px;
+}
+.rightBtn img{
+  left: 1100px;
+}
+
+  /*about*/
+  #about h2{
+    font-family: "S-Core Dream 6";
+    text-align: center;
+    margin-top: 60px ;
+    font-size: 34px;
+    color: var(--main-color);
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.about-box{
+  color: var(--text-color);
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.about-first{
+    border: 1px solid #D9D9D9;
+    width: 572px;
+    height: 250px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.about-img{
+  width: 294px;
+  height: 250px;
+}
+.about-img2{
+  width: 294px;
+  height: 250px;
+}
+.about-img3{
+  width: 294px;
+  height: 250px;
+}
+.about-img4{
+  width: 294px;
+  height: 250px;
+}
+.about-text{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-text h3{
+  font-family: "S-Core Dream 4";
+  padding-top: 60px;
+}
+
+.about-text h4{
+  font-family: "S-Core Dream 6";
+    padding-top: 20px;
+}
+.about-text p{
+  font-family: "S-Core Dream 4";
+    padding-top: 15px;
+}
+
+#sub{
+    color: var(--text-color);
+    width: 1200px;
+    height: 610px;
+    background-color: #f2e3ff;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+#sub h2{
+  font-family: "S-Core Dream 6";
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 35px;
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--main-color);
+}
+  .sub-box{
+    display: flex;
+
+}
+  .sub-img{
+      width: 572px;
+      height: 335px;
+      margin-left: 30px;
+      background-size: cover;
+  }
+  .sub-text{
+      margin-left: 60px;
+      margin-top: 100px;
+  }
+  .sub-text h3{
+    font-family: "S-Core Dream 6";
+      margin-bottom: 13px;
+      font-size: 24px;
+  }
+  .sub-text p{
+    font-family: "S-Core Dream 4";
+      margin-bottom: 40px;
+      font-size: 18px;
+  }
+
+  .sub-text button{
+    border-radius: 10px;
+    font-family: "S-Core Dream 4";
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    box-shadow: 1px 4px 0 rgb(0,0,0,0.2);
+}
+.sub-text button:active { 
+  box-shadow: 1px 1px 0 rgb(0,0,0,0.5); 
+  position: relative; 
+  top:2px; 
+}
+
+  .notice {
+    display: inline-block;
+}
+  .notice-box{
+      display: flex;
+      color: rgb(141, 141, 141);
+      justify-content: space-between;
+      margin-top: 40px;
+      padding-bottom: 35px;
+  }
+  .notice1 {
+    margin-left: 53px;
+  }
+  .notice1 h4{
+    font-family: "S-Core Dream 6";
+      font-size: 20px;
+  }
+  .notice1 p{
+    font-family: "S-Core Dream 4";
+      font-size: 30px;
+      font-weight: 600;
+  }
+  .notice2 p:first-child{
+    font-family: "S-Core Dream 6";
+      font-size: 20px;
+  }
+  .notice2 p:last-child{
+    font-family: "S-Core Dream 4";
+      font-size: 20px;
+      margin-top: 5px;
+  }
+  .notice3 { 
+    margin-right: 83px;
+  }
+  .notice3 p:first-child{
+    font-family: "S-Core Dream 4";
+    font-size: 20px;
+}
+.notice3 p:last-child{
+  font-family: "S-Core Dream 4";
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+  #footer-main{
+      width: 1200px;
+      height: 125px;
+      color: #707070;
+      margin: 0 auto;
+  }
+  footer{
+      background: #d1d1d1;
+  }
+  .footer-ul{
+      padding-top: 40px;
+      display: flex;
+      justify-content: center;
+  }
+  .footer-ul li a{
+      color: #707070;
+      padding: 0 5px;
+  }
+  .footer-ul li:last-child{
+      border-right: none;
+      padding-right: 0;
+  }
+  .footer-ul li:first-child{
+      border-right: none;
+      padding-left: 0;
+  }
+  
+  #footer-main p{
+      text-align: center;
+      margin-top: 15px;
+      font-weight: 600;
+  }
