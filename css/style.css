@@ -15,8 +15,26 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-CoreDream-5Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'S-CoreDream-1Thin';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-CoreDream-6Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -52,7 +70,7 @@ ul {
 }
 .nav li{
   margin-right: 45px;
-  font-family: 'S-CoreDream-1Thin';
+  font-family: 'S-CoreDream-3Light';
 }
 #main-header input{
     margin-top: 24px;
@@ -60,7 +78,7 @@ ul {
     height: 32px;
 }
 #main-header button{
-  font-family: 'S-CoreDream-1Thin';
+  font-family: 'S-CoreDream-3Light';
   margin-top: 24px;
   width: 45px;
   font-size: 14px;
@@ -92,12 +110,13 @@ ul {
 }
 .slider-text h2{
   font-family: 'KCC-eunyoung';
-  font-size: 72px;
+  font-size: 70px;
   color: #e9e7e7;
   margin-bottom: 31px;
 }
 .slider-text button{
-  font-family: 'S-CoreDream-1Thin';
+  font-family: 'S-CoreDream-3Light';
+  font-weight: 600px;
   width: 292px;
   height: 52px;
   text-align: center;
@@ -142,7 +161,7 @@ ul {
 
   /*about*/
   #about h2{
-    font-family: 'S-CoreDream-1Thin';
+    font-family: 'S-CoreDream-6Bold';
     text-align: center;
     margin-top: 60px ;
     font-size: 34px;
@@ -187,16 +206,16 @@ ul {
 }
 
 .about-text h3{
-  font-family: 'S-CoreDream-1Thin';
+  font-family: 'S-CoreDream-3Light';
   padding-top: 60px;
 }
 
 .about-text h4{
-  font-family: 'S-CoreDream-1Thin';
+  font-family: 'S-CoreDream-3Light';
     padding-top: 20px;
 }
 .about-text p{
-  font-family: 'S-CoreDream-1Thin';
+  font-family: 'S-CoreDream-3Light';
     padding-top: 15px;
 }
 
@@ -209,7 +228,7 @@ ul {
     margin-top: 80px;
 }
 #sub h2{
-  font-family: 'S-CoreDream-1Thin';
+  font-family: 'S-CoreDream-6Bold';
   text-align: center;
   padding-top: 80px;
   padding-bottom: 35px;
@@ -232,19 +251,19 @@ ul {
       margin-top: 100px;
   }
   .sub-text h3{
-    font-family: 'S-CoreDream-1Thin';
+    font-family: 'S-CoreDream-5Medium';
       margin-bottom: 13px;
       font-size: 24px;
   }
   .sub-text p{
-    font-family: 'S-CoreDream-1Thin';
+    font-family: 'S-CoreDream-3Light';
       margin-bottom: 40px;
       font-size: 18px;
   }
 
   .sub-text button{
     border-radius: 10px;
-    font-family: 'S-CoreDream-1Thin';
+    font-family: 'S-CoreDream-3Light';
     width: 200px;
     height: 40px;
     font-size: 16px;
@@ -270,20 +289,20 @@ ul {
     margin-left: 53px;
   }
   .notice1 h4{
-    font-family: 'S-CoreDream-1Thin';
+    font-family: 'S-CoreDream-3Light';
       font-size: 20px;
   }
   .notice1 p{
-    font-family: 'S-CoreDream-1Thin';
+    font-family: 'S-CoreDream-3Light';
       font-size: 30px;
       font-weight: 600;
   }
   .notice2 p:first-child{
-    font-family: 'S-CoreDream-1Thin';
+    font-family: 'S-CoreDream-3Light';
       font-size: 20px;
   }
   .notice2 p:last-child{
-    font-family: 'S-CoreDream-1Thin';
+    font-family: 'S-CoreDream-3Light';
       font-size: 20px;
       margin-top: 5px;
   }
@@ -291,11 +310,11 @@ ul {
     margin-right: 83px;
   }
   .notice3 p:first-child{
-    font-family: 'S-CoreDream-1Thin';
+    font-family: 'S-CoreDream-3Light';
     font-size: 20px;
 }
 .notice3 p:last-child{
-  font-family: 'S-CoreDream-1Thin';
+  font-family: 'S-CoreDream-3Light';
     font-size: 20px;
     margin-top: 5px;
 }
