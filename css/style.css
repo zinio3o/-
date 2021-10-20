@@ -8,6 +8,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'KCC-eunyoung';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-CoreDream-1Thin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 a {
   text-decoration: none;
   color: var(--text-color);
