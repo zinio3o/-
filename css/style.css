@@ -52,7 +52,7 @@ ul {
 }
 .nav li{
   margin-right: 45px;
-  font-family: "S-Core Dream 4";
+  font-family: 'S-CoreDream-1Thin';
 }
 #main-header input{
     margin-top: 24px;
@@ -60,7 +60,7 @@ ul {
     height: 32px;
 }
 #main-header button{
-  font-family: "S-Core Dream 4";
+  font-family: 'S-CoreDream-1Thin';
   margin-top: 24px;
   width: 45px;
   font-size: 14px;
@@ -91,13 +91,13 @@ ul {
     text-align: center;
 }
 .slider-text h2{
-  font-family: "KCC-은영체";
+  font-family: 'KCC-eunyoung';
   font-size: 72px;
   color: #e9e7e7;
   margin-bottom: 31px;
 }
 .slider-text button{
-  font-family: "S-Core Dream 4";
+  font-family: 'S-CoreDream-1Thin';
   width: 292px;
   height: 52px;
   text-align: center;
@@ -142,7 +142,7 @@ ul {
 
   /*about*/
   #about h2{
-    font-family: "S-Core Dream 6";
+    font-family: 'S-CoreDream-1Thin';
     text-align: center;
     margin-top: 60px ;
     font-size: 34px;
@@ -187,16 +187,16 @@ ul {
 }
 
 .about-text h3{
-  font-family: "S-Core Dream 4";
+  font-family: 'S-CoreDream-1Thin';
   padding-top: 60px;
 }
 
 .about-text h4{
-  font-family: "S-Core Dream 6";
+  font-family: 'S-CoreDream-1Thin';
     padding-top: 20px;
 }
 .about-text p{
-  font-family: "S-Core Dream 4";
+  font-family: 'S-CoreDream-1Thin';
     padding-top: 15px;
 }
 
@@ -209,7 +209,7 @@ ul {
     margin-top: 80px;
 }
 #sub h2{
-  font-family: "S-Core Dream 6";
+  font-family: 'S-CoreDream-1Thin';
   text-align: center;
   padding-top: 80px;
   padding-bottom: 35px;
@@ -232,19 +232,19 @@ ul {
       margin-top: 100px;
   }
   .sub-text h3{
-    font-family: "S-Core Dream 6";
+    font-family: 'S-CoreDream-1Thin';
       margin-bottom: 13px;
       font-size: 24px;
   }
   .sub-text p{
-    font-family: "S-Core Dream 4";
+    font-family: 'S-CoreDream-1Thin';
       margin-bottom: 40px;
       font-size: 18px;
   }
 
   .sub-text button{
     border-radius: 10px;
-    font-family: "S-Core Dream 4";
+    font-family: 'S-CoreDream-1Thin';
     width: 200px;
     height: 40px;
     font-size: 16px;
@@ -270,20 +270,20 @@ ul {
     margin-left: 53px;
   }
   .notice1 h4{
-    font-family: "S-Core Dream 6";
+    font-family: 'S-CoreDream-1Thin';
       font-size: 20px;
   }
   .notice1 p{
-    font-family: "S-Core Dream 4";
+    font-family: 'S-CoreDream-1Thin';
       font-size: 30px;
       font-weight: 600;
   }
   .notice2 p:first-child{
-    font-family: "S-Core Dream 6";
+    font-family: 'S-CoreDream-1Thin';
       font-size: 20px;
   }
   .notice2 p:last-child{
-    font-family: "S-Core Dream 4";
+    font-family: 'S-CoreDream-1Thin';
       font-size: 20px;
       margin-top: 5px;
   }
@@ -291,11 +291,11 @@ ul {
     margin-right: 83px;
   }
   .notice3 p:first-child{
-    font-family: "S-Core Dream 4";
+    font-family: 'S-CoreDream-1Thin';
     font-size: 20px;
 }
 .notice3 p:last-child{
-  font-family: "S-Core Dream 4";
+  font-family: 'S-CoreDream-1Thin';
     font-size: 20px;
     margin-top: 5px;
 }
